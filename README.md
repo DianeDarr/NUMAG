@@ -1,4 +1,4 @@
 # NUMAG
 repository pour le projet RACINE
 
-modification du README
+modification /une erreur/ du README
