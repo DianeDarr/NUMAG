@@ -1,0 +1,54 @@
+Utilisation de Git
+https://www.youtube.com/watch?v=aQj86UD8mwA
+
+Télécharger git : https://git-scm.com/downloads
+Installer Git -> la console s'ouvre
+
+Dans la console, entrer les lignes suivantes pour configurer les couleurs :
+git config --global color.diff auto
+git config --global color.branch auto
+git config --global color.status auto
+
+Pour définir le profil utilisateur :
+git config --global user.name "Monnom"
+git config --global user.email "adresse@email.com"
+
+Créer un compte GitHub :
+Suivre les instructions du site https://github.com/
+
+OPTION 1
+Sur la console :
+cd Desktop/
+git clone https://github.com/lucdegreve/NUMAG		// copie le dossier des données sur le bureau
+cd NUMAG/						// se positionne dans le dossier NUMAG
+
+Les commandes à connaitre :
+ls							// Permet de voir ce qu'il y a dans le dossier
+git cd							// Permet de naviguer dans les dossiers
+git clone https://github.com/lucdegreve/NUMAG		// Permet de copier ce qu'il y a sur le repository
+git status						// Permet de voir le status des fichiers
+git add 'le fichier'					// Permet d'ajouter un fichier au commit pour la prochaine sauvegarde
+git commit -m " 'Message d'information'  " 		// Permet de faire une sauvegarde (Martini appelait ça la photo)
+git push						// Permet d'envoyer le dernier commit(sauvegarde) sur le repository
+git pull						// Permet de récupérer les dernières modification du repository
+
+Pour le premier push il faut se connecter à GitHub, en entrant ses identifiants (username et mot de passe) dans la console
+
+On peut ajouter un fichier -> exemple : ajout de texte.txt
+on crée le fichier dans le dossier Desktop/NUMAG
+Dans la console :
+git add "texte.txt"
+git commit -m "Ajout du fichier texte"
+git push
+
+OPTION 2
+Utilisation de GitKraken (meilleure interface : plus besoin d'utiliser la console)
+https://www.youtube.com/watch?v=daBPgzan_wI
+
+Connection avec le compte GitHub
+Bouton en haut à gauche : Clone>Clone with URL : choisir un emplacement en local où copier le dossier (Desktop/NUMAG), url : https://github.com/lucdegreve/NUMAG >Clone the repol
+On voit tous les commits (les ronds), leur auteur et en cliquant dessus on voit les fichiers concernés et les modifications effectuées
+
+On peut ajouter un fichier -> exemple : ajout de texte.txt
+on crée le fichier dans le dossier Desktop/NUMAG
+Sur GitKraken 
